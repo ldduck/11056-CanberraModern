@@ -18,23 +18,7 @@ h2 {
     font-size: 1.4em;
 }
 
-#box-container {
-    width: 100%;
-    float: left;
-}
 
-.box {
-    background-color: darkseagreen;
-
-    width: 40%;
-    float: left;
-    margin: 1em;
-}
-
-.box2 {
-    color: darkslategray;
-    padding: 1em;
-}
 
 
 
@@ -48,10 +32,18 @@ header {
 }
 
 header .inner {
-    flex-direction: row;
     display: flex;
     justify-content: space-between;
     gap: 1em;
     height: 5em;
     align-items: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 0.2em;
+}
+
+img {
+    float: right;
 }
