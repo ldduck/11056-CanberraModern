@@ -1,0 +1,15 @@
+
+body {
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inner {
+    width: 75%;
+    margin: auto;
+}
