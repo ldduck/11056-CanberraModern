@@ -95,6 +95,8 @@ img {
 }
 
 /*3 Grid Gallery Attempt*/
+/*Some of the code is currently taken from your examples, this was so i could figure out whats going on*/
+/*As such, the code will change when the foundations are fully understood*/
 .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
