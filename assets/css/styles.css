@@ -1,4 +1,5 @@
-
+/*PLACEHOLDER FONTS*/
+/* I still don't fully understand how setting font size impacts everything as per note on your files*/
 body {
     font-size: 16px;
     font-family: 'Segoe UI', sans-serif;
@@ -8,20 +9,41 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 h1 {
     font-size: 1.8em;
+    font-family: monospace;
 }
 
-h2 {
-    color: aliceblue;
+h3 {
     font-size: 1.4em;
+    margin: 1.2em 0;
 }
 
+/*Main Page Styling*/
+main h2 {
+    font-size: 2em;
+    margin: 1.2em;
+    text-align: center;
+}
 
+main p {
+    font-size: 1.2em;
+    font-weight: lighter;
+    line-height: 1.4em;
+    margin-bottom: 1.2em;
+    padding-left: 2em;
+    text-align: center;
+}
 
+/*Paragraph box*/
+#box-container {
+    width: 50%;
+    float: left;
+    margin: 1em;
+    
+}
 
-
+/*Header Shenanigans*/
 .inner {
     width: 75%;
     margin: auto;
@@ -42,8 +64,70 @@ header .inner {
 header nav ul li {
     display: inline;
     margin-left: 0.2em;
+    font-family: monospace;
 }
 
+/*Changes the style of links*/
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:crimson;
+}
+
+a:active {
+    text-decoration: underline;
+    color:crimson;
+}
+
+
+/*Hero Image*/
 img {
     float: right;
+}
+
+/*3 Grid Gallery Attempt*/
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1.5em;
+    margin: 2em;
+}
+
+/*Visual Copy Final TBD - I wanted to learn/get this working first*/
+.gallery div {
+    background-color: cornflowerblue;
+    min-height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Gallery Images*/
+.gallery .universityhouse {
+    background-image: url(../images/universityhouse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0.8);
+}
+
+.gallery h3 {
+    color: darksalmon;
+    text-align: center;
+    display: none;
+}
+.gallery div:hover {
+    filter: grayscale(0);
+}
+.gallery div:hover h3 {
+    display: block;
 }
