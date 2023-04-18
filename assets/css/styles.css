@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700&display=swap');
+
 /*PLACEHOLDER FONTS*/
 /* I still don't fully understand how setting font size impacts everything as per note on your files*/
 body {
     font-size: 16px;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Lato', sans-serif;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -63,7 +66,6 @@ main p {
 /*Paragraph box*/
 #box-container {
     width: 50%;
-    float: left;
     margin: 1em;
     
 }
