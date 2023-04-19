@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700&display=swap');
+@import url("https://use.typekit.net/ltk0vpd.css");
 
-/*PLACEHOLDER FONTS*/
-/* I still don't fully understand how setting font size impacts everything as per note on your files*/
 body {
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
-
+    font-family:'futura-pt', sans-serif;
+    font-style: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 h1 {
@@ -21,7 +19,6 @@ h3 {
     font-size: 1.4em;
     margin: 1.2em;
 }
-
 
 
 
@@ -48,9 +45,18 @@ h3 {
     
 }
 
+/*Linebreak*/
+.linebreak {
+    background-color: bisque;
+    border: .1em solid bisque;
+    max-width: 50%;
+    margin: auto;
+}
+
 main h2 {
     font-size: 2em;
-    margin: 1.2em;
+    margin-bottom: 1.2em;
+    margin-top: 1.2em;
     text-align: center;
 }
 
@@ -70,12 +76,17 @@ main p {
     
 }
 
-/*Header Shenanigans*/
+.box2 {
+    height: auto;
+}
+
+
 .inner {
     width: 75%;
     margin: auto;
 }
 
+/*Header Shenanigans*/
 header {
     background-color: azure;
 }
@@ -91,6 +102,17 @@ header nav ul li {
     display: inline;
     margin-left: 1.5em;
     font-family: monospace;
+}
+
+/*Footer Shenanigans*/
+footer {
+    position: absolute;
+    background-color: azure;
+    text-align: center;
+    height: 5em;
+    bottom: 0em;
+    width: 100%;
+
 }
 
 /*Changes the style of links*/
@@ -155,3 +177,4 @@ a:active {
 .gallery div:hover h3 {
     display: block;
 }
+
