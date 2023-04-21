@@ -37,7 +37,7 @@ h3 {
 
 .introtext {
     max-width: 50%;
-    margin-right: 0em;
+    margin-right: 1.4em;
 }
 
 /*Hero Image*/
@@ -212,42 +212,42 @@ a:active {
     transition: 100ms filter linear;
 }
 .gallery .civicsquare {
-    background-image: url(../images/universityhouse.png);
+    background-image: url(../images/civicsquare.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(25%);
     transition: 100ms filter linear;
 }
 .gallery .parlimenthouse {
-    background-image: url(../images/universityhouse.png);
+    background-image: url(../images/parlimenthouse.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(25%);
     transition: 100ms filter linear;
 }
 .gallery .nationallibrary {
-    background-image: url(../images/universityhouse.png);
+    background-image: url(../images/nationallibrary.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(25%);
     transition: 100ms filter linear;
 }
 .gallery .colonialmutual {
-    background-image: url(../images/universityhouse.png);
+    background-image: url(../images/colonialmutual.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(25%);
     transition: 100ms filter linear;
 }
 .gallery .highcourt {
-    background-image: url(../images/universityhouse.png);
+    background-image: url(../images/highcourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(25%);
     transition: 100ms filter linear;
 }
 .gallery .musicschool {
-    background-image: url(../images/universityhouse.png);
+    background-image: url(../images/musicschool.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(25%);
@@ -255,7 +255,7 @@ a:active {
 }
 
 .gallery h3 {
-    color: crimson;     
+    color: palegreen;     
     text-align: center;
     display: none;
 
