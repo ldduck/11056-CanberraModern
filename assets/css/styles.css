@@ -67,7 +67,7 @@ main p {
     font-weight: lighter;
     line-height: 1.4em;
     margin-bottom: 1.2em;
-    padding-left: 2em;
+    padding-left: 1.2em;
     text-align: center;
 }
 
@@ -84,7 +84,7 @@ main p {
 
 
 .inner {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -170,19 +170,20 @@ a:active {
 .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     column-gap: 1em;
-    row-gap: 1.5em;
+    row-gap: 2em;
     margin: 2em 0;
 }
 
-/*Visual Copy Final TBD - I wanted to learn/get this working first*/
+/*Box Styling*/
 .gallery div {
-    background-color: cornflowerblue;
+    background-color: rgb(176, 196, 233);
     min-height: 10em;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 10em;
+    
 }
 
 /*Gallery Images*/
@@ -190,7 +191,7 @@ a:active {
     background-image: url(../images/universityhouse.png);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(0);
+    filter: grayscale(0.8);
 }
 
 .gallery h3 {
@@ -199,7 +200,7 @@ a:active {
     display: none;
 }
 .gallery div:hover {
-    filter: grayscale(0.8);
+    filter: grayscale(0);
 }
 .gallery div:hover h3 {
     display: block;
