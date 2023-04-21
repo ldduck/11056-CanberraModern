@@ -31,12 +31,12 @@ h3 {
 
 .heroimage {
     max-width: 100%;
-    height: 725;
-    width: 250;
+    height: 750;
+    width: 500;
 }
 
 .introtext {
-    max-width: 25%;
+    max-width: 50%;
     margin-right: 0em;
 }
 
@@ -51,7 +51,7 @@ h3 {
 .linebreak {
     background-color: bisque;
     border: .1em solid bisque;
-    max-width: 25%;
+    max-width: 50%;
     margin: auto;
 }
 
@@ -60,6 +60,7 @@ main h2 {
     margin-bottom: 1.2em;
     margin-top: 1.2em;
     text-align: center;
+    padding-left: 1.2em;
 }
 
 main p {
@@ -73,7 +74,7 @@ main p {
 
 /*Paragraph box*/
 #box-container {
-    width: 25%;
+    width: 50%;
     margin: 1em;
     
 }
@@ -90,7 +91,7 @@ main p {
 
 /*Header Shenanigans*/
 header {
-    background-color: azure;
+    background-color: rgba(116, 187, 253, 0.966);
 }
 
 header .inner {
@@ -108,7 +109,7 @@ header nav ul li {
 
 /*Footer Shenanigans*/
 footer {
-    background-color: azure;
+    background-color:rgb(61, 161, 255);
     text-align: center;
     height: 4em;
     width: 100%;
@@ -116,7 +117,7 @@ footer {
 }
 
 footer p {
-    font-size: .25em;
+    font-size: .75em;
     font-weight: lighter;
     line-height: 0.5em;
     margin-bottom: 1em;
@@ -155,12 +156,12 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-    color:crimson;
+    color: palegoldenrod;
 }
 
 a:active {
     text-decoration: underline;
-    color:crimson;
+    color:palegoldenrod;
 }
 
 
@@ -172,8 +173,9 @@ a:active {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     column-gap: 1em;
-    row-gap: 10em;
+    row-gap: 5em;
     margin: 2em 0;
+    
 }
 
 /*Box Styling*/
@@ -183,26 +185,27 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(241, 209, 169);
 }
 
 
 /*Gallery Images*/
 .gallery .universityhouse {
-    background-image: url(../images/universityhouse.png);
+    background-image: url(../images/universityhouse.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     filter: opacity(25%);
     transition: 100ms filter linear;
 }
 .gallery .churchillhouse {
-    background-image: url(../images/universityhouse.png);
+    background-image: url(../images/churchillhouse.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(25%);
     transition: 100ms filter linear;
 }
 .gallery .callamoffices {
-    background-image: url(../images/universityhouse.png);
+    background-image: url(../images/callamoffices.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(25%);
@@ -276,7 +279,7 @@ a:active {
 
 
 /*Media Queries*/
-/*Mobile*/
+/*Mobile & Tablet*/
 @media screen and (max-width: 48em) {
     body {
         font-size: 20px;
@@ -291,6 +294,12 @@ a:active {
     .hero {
         display: none;
     }
+    .introtext {
+        grid-column: auto;
+        margin: auto;
+        
+    }
+
 }
 
 /*Tablet*/
